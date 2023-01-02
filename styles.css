@@ -1,0 +1,451 @@
+/*GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+.scrollable {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1440px) {
+  * {
+    box-sizing: border-box;
+  }
+
+
+
+  /* Default styles */
+  body {
+    font-size: 21px;
+    font-family: "Montserrat";
+    margin: 0%;
+    padding: 0%;
+
+  }
+
+  header {
+
+    background-color: rgb(52, 65, 107);
+    height: 100px;
+    font-family: "Montserrat";
+  }
+
+  nav ul {
+    display: flex;
+    height: 100px;
+    place-items: center;
+  }
+
+  nav li {
+    list-style: none;
+    margin-left: 15%;
+  }
+
+  nav li a {
+    color: white;
+  }
+
+  
+
+  .skillsArticle {
+    margin: 10% 10%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    font-family: "Montserrat";
+    color: rgb(255, 128, 0);
+
+
+  }
+
+  .educationArticle {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10%;
+    font-family: "Montserrat";
+  }
+
+  .article {
+    display: flex;
+    border-bottom: 1px solid darkgreen;
+    margin: 0px 10%;
+    font-family: "Montserrat";
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+  }
+
+  .screenshot {
+    /*IMAGE INSIDE img-container*/
+
+    width: 300px;
+  }
+
+  .img-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    padding: 0px 10%;
+  }
+
+  #des a {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+    font-family: "Montserrat";
+  }
+
+  #des a:visited {
+    color: rgb(67, 112, 209);
+  }
+
+  .ext-website {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+  }
+
+
+  .ext-website {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+  }
+
+  .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+  }
+
+  .more a {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+
+  }
+
+  form {
+    margin: 15% 15%;
+    font-family: "Montserrat";
+
+  }
+
+  a {
+    font-family: "Montserrat";
+  }
+
+
+
+}
+
+
+/*TABLET-QUERY-SPECIFIC-640PX DESIGN*/
+
+
+@media only screen and (max-width: 640px) {
+
+  * {
+    box-sizing: border-box;
+    font-family: "Montserrat";
+  }
+
+  body {
+    font-size: 14px;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  header {
+    /* max-height: fit-content;*/
+    background-color: rgb(52, 65, 107);
+    width: 100%;
+  }
+
+  header nav {
+    display: flex;
+    place-items: center;
+    height: 100px;
+  }
+
+  nav ul li {
+
+    margin: 0px 30px;
+
+  }
+
+  header a {
+
+    text-decoration: none;
+
+  }
+
+  nav li a {
+    color: white;
+  }
+
+  /**/
+
+  /*skills section*/
+
+  .skillsArticle {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10%;
+
+  }
+
+  /*education article*/
+  .educationArticle {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10%;
+  }
+
+
+  /*project article section*/
+
+  .article {
+    display: block;
+    border-bottom: 1px solid darkgreen;
+    margin: 0px 10%;
+
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+
+    /*min-width: fit-content;*/
+  }
+
+  .screenshot {
+    /*IMAGE INSIDE img-container*/
+
+    width: 200px;
+  }
+
+  .img-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+  }
+
+  #des a {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+  }
+
+  #des a:visited {
+    color: rgb(67, 112, 209);
+  }
+
+  .ext-website {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+  }
+
+
+  .ext-website {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+  }
+
+  .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+  }
+
+  .more a {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+  }
+
+  form {
+    margin: 0px 10%;
+    margin-top: 10%;
+  }
+}
+
+
+/*Mobile-QUERY-SPECIFIC-320PX DESIGN*/
+
+
+@media only screen and (max-width: 320px) {
+  * {
+    box-sizing: border-box;
+    font-family: "Montserrat";
+  }
+
+  body {
+    font-size: 7px;
+    font-family: "Montserrat";
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(188, 200, 130);
+    /*gradient*/
+  }
+
+  header {
+
+    /* max-height: fit-content;*/
+    background-color: rgb(52, 65, 107);
+    width: 100%;
+
+
+  }
+
+  header nav {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+
+
+  }
+
+  nav ul li {
+
+    margin: 0px 7px;
+
+  }
+
+  header a {
+
+    text-decoration: none;
+
+  }
+
+
+
+  nav ul li a:visited {
+    color: rgb(255, 255, 255);
+  }
+
+  /**/
+
+  /*skills section*/
+
+  .skillsArticle {
+    display: flex;
+    justify-content: center;
+    height: 225px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 5%;
+
+  }
+
+  /*education article*/
+  .educationArticle {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 5%;
+  }
+
+
+  /*project article section*/
+
+  .article {
+    display: block;
+    border-bottom: 1px solid darkgreen;
+    margin: 0px 5%;
+
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+
+    /*min-width: fit-content;*/
+  }
+
+  .screenshot {
+    /*IMAGE INSIDE img-container*/
+
+    width: 100px;
+  }
+
+  .img-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+  }
+
+  #des a {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+  }
+
+  #des a:visited {
+    color: rgb(67, 112, 209);
+  }
+
+  .ext-website {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+  }
+
+
+  .ext-website {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+  }
+
+  .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+  }
+
+  .more a {
+    text-decoration: none;
+    color: rgb(67, 112, 209);
+
+
+
+  }
+
+  form {
+    margin: 0px 5%;
+    margin-top: 5%;
+  }
+
+}
+
+/*animations*/

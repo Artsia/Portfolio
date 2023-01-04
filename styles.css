@@ -45,7 +45,7 @@
     color: white;
   }
 
-  
+
 
   .skillsArticle {
     margin: 10% 10%;
@@ -83,9 +83,9 @@
     height: 600px;
   }
 
-  #img-sum-order{
+  #img-sum-order {
     /*background-image: linear-gradient(315deg,#3b85b7 0%, #0400f396 74%, rgb(95, 124, 252));*/
-    
+
   }
 
   .screenshot {
@@ -105,7 +105,7 @@
     padding: 0px 10%;
   }
 
-  #des{
+  #des {
     font-family: "Montserrat";
     width: 700px;
     word-wrap: break-word;
@@ -115,7 +115,7 @@
   #des a {
     text-decoration: none;
     color: rgb(67, 112, 209);
-   
+
   }
 
   #des a:visited {
@@ -157,29 +157,36 @@
     font-family: "Montserrat";
   }
 
-  
-  footer{
+
+  footer {
     background-color: rgb(52, 65, 107);
     height: 200px;
 
   }
 
-  footer ul{
+  footer ul {
     display: flex;
   }
 
-  footer ul li{
+  footer ul li {
     display: flex;
     list-style: none;
     margin: 10px;
   }
 
-  footer a {color:white;}
-  
+  footer a {
+    color: white;
+  }
 
-  
+  img,
+  video {
+    width: 100%;
+    max-width: 100%;
+  }
+
 
 }
+
 
 
 /*TABLET-QUERY-SPECIFIC-640PX DESIGN*/
@@ -191,6 +198,13 @@
     box-sizing: border-box;
     font-family: "Montserrat";
   }
+
+  img,
+  video {
+    width: 100%;
+    max-width: 100%;
+  }
+
 
   body {
     font-size: 14px;
@@ -286,10 +300,10 @@
     flex-direction: column;
   }
 
-  #des{
+  #des {
     font-family: "Montserrat";
     width: 350px;
-    margin-top:-150px;
+    margin-top: -150px;
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
@@ -333,22 +347,25 @@
   }
 
 
-  footer{
+  footer {
     background-color: rgb(52, 65, 107);
     height: 100px;
-   }
-  footer a {color:white;}
+  }
 
-  footer ul{
+  footer a {
+    color: white;
+  }
+
+  footer ul {
     display: flex;
   }
 
-  footer ul li{
+  footer ul li {
     list-style: none;
     margin: 5px;
   }
 
-  
+
 
 }
 
@@ -360,6 +377,12 @@
   * {
     box-sizing: border-box;
     font-family: "Montserrat";
+  }
+
+  img,
+  video {
+    width: 100%;
+    max-width: 100%;
   }
 
   body {
@@ -467,7 +490,7 @@
     flex-direction: column;
   }
 
-  #des{
+  #des {
     font-family: "Montserrat";
     width: 700px;
     word-wrap: break-word;
@@ -516,26 +539,29 @@
   }
 
   /*footer*/
-  footer{
+  footer {
     background-color: rgb(52, 65, 107);
     height: 50px;
     width: 100%;
 
   }
-  footer a {color:white;}
 
-  footer ul{
-    display: flex;
-   
-    
+  footer a {
+    color: white;
   }
 
-  footer ul li{
+  footer ul {
+    display: flex;
+
+
+  }
+
+  footer ul li {
     list-style: none;
     margin: 3px;
   }
 
- 
+
 
 }
 

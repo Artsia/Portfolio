@@ -3,14 +3,12 @@
 
 
 
-.scrollable {
+/*.scrollable {
   scroll-behavior: smooth;
-}
+}*/
 
-@media only screen and (max-width: 1440px) {
-  * {
-    box-sizing: border-box;
-  }
+
+@media only screen and (min-width: 641px) {
 
 
 
@@ -20,6 +18,10 @@
     font-family: "Montserrat";
     margin: 0%;
     padding: 0%;
+     overflow-x: hidden;
+    /*background-color: rgb(91, 131, 167);*/
+    
+
 
   }
 
@@ -147,6 +149,8 @@
 
   }
 
+  /*form section*/
+
   form {
     margin: 15% 15%;
     font-family: "Montserrat";
@@ -157,7 +161,7 @@
     font-family: "Montserrat";
   }
 
-
+/**footer section */
   footer {
     background-color: rgb(52, 65, 107);
     height: 200px;
@@ -390,8 +394,6 @@
     font-family: "Montserrat";
     margin: 0%;
     padding: 0%;
-    background-color: rgb(188, 200, 130);
-    /*gradient*/
   }
 
   header {
@@ -564,5 +566,3 @@
 
 
 }
-
-/*animations*/

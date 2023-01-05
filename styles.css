@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
 }*/
 
-
+/*When user zooms out on desktop element will remain structured*/
 @media only screen and (min-width: 1441px) {
 
 
@@ -191,6 +191,7 @@
 
 }
 
+/**when desktop is at 100% not zoomed in or out*/
 @media only screen and (max-width: 1440px) {
 
 
@@ -375,7 +376,7 @@
 }
 
 
-/*TABLET-QUERY-SPECIFIC-640PX DESIGN*/
+/*TABLET-DESIGN when tablet device faced upwards(longest side)*/
 
 
 @media only screen and (max-width: 640px) {
@@ -558,7 +559,9 @@
 }
 
 
-/*Mobile-QUERY-SPECIFIC-320PX DESIGN*/
+/*Mobile-
+when user clicks desktop version in their phone, 
+images despair because there is not enough pixels to allocate*/
 
 
 @media only screen and (max-width: 320px) {

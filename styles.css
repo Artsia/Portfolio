@@ -385,11 +385,7 @@
     font-family: "Montserrat";
   }
 
- /* img,
-  video {
-    width: 100%;
-    max-width: 100%;
-  }*/
+
 
   body {
     font-size: 7px;
@@ -566,6 +562,11 @@
     margin: 3px;
   }
 
+  img,
+  video {
+    width: 100%;
+    max-width: 100%;
+  }
 
 
 }
